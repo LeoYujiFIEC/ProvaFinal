@@ -10,7 +10,7 @@ import java.io.IOException;
 @WebServlet("/sapatos")
 public class SapatoServlet extends HttpServlet {
 
-    //private SapatoRepositorio sapatoRepositorio;
+    //private ProdutoRepositorio produtoRepositorio;
 
     public SapatoServlet(){
         // inicialize o repositorio com o entitymanager aqui
@@ -20,7 +20,7 @@ public class SapatoServlet extends HttpServlet {
         /*String nome = request.getParameter("nome");
         String preco = request.getParameter("preco");
         String imagem = request.getParameter("imagem");
-        Produto p = Sapato.builder()
+        Produto p = Produto.builder()
                 .nome(nome)
                 .preco(Double.valueOf(preco))
                 .imagemUrl(imagem)
@@ -36,7 +36,7 @@ public class SapatoServlet extends HttpServlet {
 
         response.setContentType("text/html");
 
-        //response.getWriter().println(sapatos.stream().map(Sapato::toString).collect(Collectors.toList()));
+        //response.getWriter().println(produtos.stream().map(Produto::toString).collect(Collectors.toList()));
 
     }
     // Update   /sapatos/:id
