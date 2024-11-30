@@ -8,6 +8,22 @@
   <name>ProvaFinal Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+
+    <!-- https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api -->
+    <dependency>
+      <groupId>javax.persistence</groupId>
+      <artifactId>javax.persistence-api</artifactId>
+      <version>2.2</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/ee.getid/getidlib -->
+    <dependency>
+      <groupId>ee.getid</groupId>
+      <artifactId>getidlib</artifactId>
+      <version>2.7.7</version>
+    </dependency>
+
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

@@ -1,6 +1,8 @@
 package com.fiec.provafinal;
 
 
+import com.fiec.provafinal.models.SapatoRepositorio;
+
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -10,7 +12,7 @@ import java.io.IOException;
 @WebServlet("/sapatos")
 public class SapatoServlet extends HttpServlet {
 
-    //private ProdutoRepositorio produtoRepositorio;
+    //private SapatoRepositorio sapatoRepositorio;
 
     public SapatoServlet(){
         // inicialize o repositorio com o entitymanager aqui
@@ -20,7 +22,7 @@ public class SapatoServlet extends HttpServlet {
         /*String nome = request.getParameter("nome");
         String preco = request.getParameter("preco");
         String imagem = request.getParameter("imagem");
-        Produto p = Produto.builder()
+        Sapato p = Sapato.builder()
                 .nome(nome)
                 .preco(Double.valueOf(preco))
                 .imagemUrl(imagem)
@@ -36,12 +38,12 @@ public class SapatoServlet extends HttpServlet {
 
         response.setContentType("text/html");
 
-        //response.getWriter().println(produtos.stream().map(Produto::toString).collect(Collectors.toList()));
+        //response.getWriter().println(sapatos.stream().map(Sapato::toString).collect(Collectors.toList()));
 
     }
     // Update   /sapatos/:id
     public void doPut(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        String id = getId(request);
+       //String id = getId(request);
 
 
         response.setContentType("text/html");
