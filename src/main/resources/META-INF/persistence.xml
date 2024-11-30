@@ -7,7 +7,7 @@
     <persistence-unit name="ProvaFinal">
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
-            <property name="jakarta.persistence.jdbc.url" value="alunofiec.c6hic1eh5cuk.us-east-1.rds.amazonaws.com:3306/revisaofinal_leonardo_37647" />
+            <property name="jakarta.persistence.jdbc.url" value="alunofiec.c6hic1eh5cuk.us-east-1.rds.amazonaws.com:3306/provafinal_37647" />
             <property name="jakarta.persistence.jdbc.user"   value="admin" />
             <property name="jakarta.persistence.jdbc.password" value="BrasilHexa2026" />
             <property name="jakarta.persistence.schema-generation.database.action" value="update" />
